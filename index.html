@@ -59,8 +59,8 @@
 		<!-- bloc-0 END -->
 
 		<!-- bloc-1-presentation -->
-		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge b-parallax" id="bloc-1-hero">
-			<div class="container bloc-lg">
+		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge b-parallax" id="bloc-1-hero" aria-labelledby="presentation">
+			<div class="container bloc-lg" id="presentation">
 				<div class="row tight-width-whitespace">
 					<div class="col-sm-12">
 						<h1 class="text-center hero-bloc-text tc-white black-background">
@@ -76,7 +76,7 @@
 		<!-- bloc-1-presentation END -->
 
 		<!-- bloc-2-services -->
-		<main class="bloc bgc-white " id="bloc-2-services">
+		<main class="bloc bgc-white " id="bloc-2-services" aria-labelledby="services">
 			<div class="container bloc-md">
 				<div class="row">
 					<h2 class="col-sm-12 text-center">
@@ -84,7 +84,7 @@
 						devenir <strong>attractives</strong> et <strong>visibles</strong> sur internet.
 					</h2>
 				</div>
-				<div class="row voffset-lg med-width-whitespace">
+				<div class="row voffset-lg med-width-whitespace" id="services">
 					<div class="col-sm-4">
 						<div class="text-center">
 							<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
@@ -158,19 +158,17 @@
 		<!-- bloc-3-what-i-do END -->
 
 		<!-- bloc-4-portfolio -->
-		<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+		<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio" aria-labelledby="portfolio">
 			<div class="container bloc-lg">
 				<div class="row">
 					<h2 class="col-sm-12 text-center">
 						Nous travaillons avec beaucoup de clients,<br> voici nos réalisations.
 					</h2>
 				</div>
-				<div class="row tight-width-whitespace portfolio-row">
+				<div class="row tight-width-whitespace portfolio-row" id="portfolio">
 					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/journal.jpg" data-gallery-id="gallery-1"
-							data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
-							<img src="img/journal.jpg" alt="refonte site web journal"
-								class="img-responsive portfolio-thumb"></a>
+						<a href="#" data-lightbox="img/journal.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+							<img src="img/journal.jpg" alt="refonte site web journal" class="img-responsive portfolio-thumb"></a>
 						<h3 class="mg-md text-center">
 							Refonte d'un site web pour un journal local
 						</h3>
@@ -218,14 +216,14 @@
 		<!-- bloc-4-portfolio END -->
 
 		<!-- bloc-5-cta -->
-		<section class="bloc black-background d-bloc" id="bloc-5-cta">
+		<section class="bloc black-background d-bloc" id="bloc-5-cta" aria-labelledby="contact">
 			<div class="container">
 				<div class="row">
 					<h2 class="mg-md text-center tc-white">
 						Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 					</h2>
 					<div class="col-sm-12 text-center">
-						<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+						<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" id="contact" role="button">Contact</a>
 					</div>
 				</div>
 			</div>
@@ -233,33 +231,32 @@
 		<!-- bloc-5-cta END -->
 
 		<!-- Footer - bloc-8 -->
-		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<footer class="bloc bgc-atomic-tangerine d-bloc " id="bloc-8" aria-labelledby="reseaux">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center panel">
+						<p class="text-center panel panel-rd bgc-white">
 							Agence La Panthère - Agence web basée à Lyon.<br>
 						</p>
-						<div class="row row-no-gutters social">
+						<div class="row row-no-gutters social" id="reseaux">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://twitter.com/"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="https://twitter.com/" aria-label="logo twitter"><span class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://www.facebook.com/"><span
-											class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="https://www.facebook.com/" aria-label="logo facebook"><span class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="https://dribbble.com/" aria-label="logo dribble"><span class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="https://www.instagram.com/" aria-label="logo instagram"><span class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
 						</div>
